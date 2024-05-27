@@ -13,7 +13,7 @@ This project involves developing a chatbot using a pretrained GPT-2 model. The m
 - License
 
 ## Introduction
-Welcome to the GPT-2 Assistant AI Chatbot project! This project showcases how to leverage the capabilities of GPT-2, a state-of-the-art language model developed by OpenAI, to build an intelligent chatbot. By fine-tuning GPT-2 on the Open Assistant Conversations (OASST1) dataset, we've created a model capable of understanding and responding to a wide array of user inputs, making it a versatile assistant.
+Welcome to the GPT-2 Assistant AI Chatbot project! This project showcases how to leverage the capabilities of GPT-2, a state-of-the-art language model developed by OpenAI, to build an intelligent chatbot. By fine-tuning GPT-2 on the Open Assistant Conversations (OASST1) dataset, I've created a model capable of understanding and responding to a wide array of user inputs, making it a versatile assistant.
 
 ## Model 
 The GPT-2 model used in this project is a highly advanced text generation model known for its ability to produce coherent and contextually relevant sentences. The model has been fine-tuned specifically for conversational tasks, enabling it to provide meaningful and helpful responses. You can find the original pretrained model on Hugging Face under the name [openai-community/gpt2](https://huggingface.co/openai-community/gpt2).
