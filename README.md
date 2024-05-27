@@ -19,7 +19,7 @@ Welcome to the GPT-2 Assistant AI Chatbot project! This project showcases how to
 The GPT-2 model used in this project is a highly advanced text generation model known for its ability to produce coherent and contextually relevant sentences. The model has been fine-tuned specifically for conversational tasks, enabling it to provide meaningful and helpful responses. You can find the original pretrained model on Hugging Face under the name [openai-community/gpt2](https://huggingface.co/openai-community/gpt2).
 
 ## Dataset
-The OASST1 dataset used for fine-tuning contains conversations that simulate interactions between a user and an assistant. The dataset is split into two parts:
+The [OASST1 dataset](https://www.kaggle.com/datasets/snehilsanyal/oasst1?select=oasst1-val.csv) used for fine-tuning contains conversations that simulate interactions between a user and an assistant. The dataset is split into two parts:
 - df_train.csv: Training dataset
 - df_val.csv: Validation dataset
     
