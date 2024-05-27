@@ -1,1 +1,1 @@
-# GPT-2-Assistant-Building-an-Intelligent-AI-Chatbot
+# Building-GPT-2-Assistant-AI-Chatbot
