@@ -50,6 +50,7 @@ def generate_response(input_text):
         num_return_sequences=1,
         no_repeat_ngram_size=2,
         pad_token_id=tokenizer.eos_token_id,
+        eos_token_id=tokenizer.eos_token_id,
         early_stopping=True,
         do_sample=True,
         use_cache=True,
@@ -59,12 +60,7 @@ def generate_response(input_text):
 
     bot_response_start = full_generated_text.find('[Bot]') + len('[Bot]')
     bot_response = full_generated_text[bot_response_start:]
-
-    last_period_index = bot_response.rfind('.')
-    if last_period_index != -1:
-        bot_response = bot_response[:last_period_index + 1]
-
-    return bot_response.strip()
+    return bot_response
 
 
 model_name = 'KhantKyaw/Chat_GPT-2'
