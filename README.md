@@ -1,6 +1,8 @@
 # Building-GPT-2-Assistant-AI-Chatbot
 This project involves developing a chatbot using a pretrained GPT-2 model. The model has been trained on the OASST1 dataset and is designed to to assist users with various tasks and queries.. The fine-tuned model is uploaded to Hugging Face under the name [KhantKyaw/Chat_GPT-2](https://huggingface.co/KhantKyaw/Chat_GPT-2). 
 
+![gpt2](gpt2.jpg)
+
 ## Table of Contents
 
 - Introduction
